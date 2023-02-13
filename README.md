@@ -13,7 +13,7 @@ Rules<br />
   
  Click image to play the game on your browser :)
  
-[<image src="https://user-images.githubusercontent.com/119063181/215343359-ac6e0d7e-c5be-427d-bc56-66b48677a71b.png" alt="Run Button"/>]([https://replit.com/@polishko/Rock-Paper-Scissors#main.py](https://replit.com/@polishko/RandomSentenceGeneratorByPolishko?v=1))
+[<image src="https://user-images.githubusercontent.com/119063181/215343359-ac6e0d7e-c5be-427d-bc56-66b48677a71b.png" alt="Run Button"/>](https://replit.com/@polishko/RandomSentenceGeneratorByPolishko#main.py)
 
 
 
