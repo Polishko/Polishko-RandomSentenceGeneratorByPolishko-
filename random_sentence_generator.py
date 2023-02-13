@@ -1,17 +1,15 @@
 import random
-names = ["Genc", "Nalan", "Tanya", "Elena", "Leman", "Erkin", "Sultan", "Taner", "Ozge"]
-places = ["Istanbul", "space", "the village", "the big city", "the sea side", "Hollywood", "the block", "the cave"]
-verbs = ["ate", "slept", "cried", "went", "swam", "heard", "cooked", "drove", "read", "played", "walked", "farted"]
-nouns = ["icecream", "beach", "mercedes", "guitar", "story", "gamble", "bacon", "cat", "dog", "strange sounds", "sofa", "beans"]
-adverbs = ["sleepily", "ferociously", "crazily", "calmly", "surprisingly", "interestingly", "playfully", "sadly", "awfully"]
-details = ["at the cafe", "in the barn", "in public", "on the highway", "at work", "at their grandma's", "on the balcony"]
+names = input("Enter your friends' names separated by comma (eg. Jane, Eyre) then press Enter ").split(", ")
+places = input("Enter locations separated by comma (eg. the village, space) then press Enter ").split(", ")
+adverbs = input("Enter adverbs separated by comma (eg. calmly, rapidly) then press Enter ").split(", ")
+verbs = input("Enter actions separated by comma (eg. cooked, sang) then press Enter ").split(", ")
+nouns = input("Enter nouns separated by comma (eg. ice cream, guitar) then press Enter ").split(", ")
+details = input("Enter details separated by comma (eg. at the party, on the highway) then press Enter ").split(", ")
 
 
 def randomize_words(words):
     return random.choice(words)
 
-
-initial_input = input("Press [Enter] to generate a random sentence")
 
 while True:
 
